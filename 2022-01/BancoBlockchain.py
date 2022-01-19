@@ -84,7 +84,7 @@ class IoTBlockchainDB(object):
         # Inserindo no banco de dados
         self.blocks.insert_one(block)
 
-        print('Bloco #{0} adicionado ao blockchain').format(block['height']))
+        print('Bloco #{0} adicionado ao blockchain'.format(block['height']))
 
         return block
 
