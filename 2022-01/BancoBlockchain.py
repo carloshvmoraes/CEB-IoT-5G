@@ -9,8 +9,11 @@ block_reward_rate = 1000
 difficulty_bits_block_rate = 100
 difficulty_block_rate = 100
 
-class IoT5gDB(object):
-    def __init__(self,MongoIP:str='127.0.0.1',MongoPort:int=27017):
+class IoTBlockchainDB(object):
+    def __init__(self, 
+                 MongoIP:str='127.0.0.1', 
+                 MongoPort:int=27017,
+                ):
         """
         Inicializando Blockchain
         """
