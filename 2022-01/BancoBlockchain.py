@@ -1,3 +1,10 @@
+'''
+    Baseado no código: 
+    https://github.com/hoanhan101/blockchain-db/blob/master/src/blockchain_db.py
+    Author: Hoanh An (hoanhan@bennington.edu)
+	Date: 12/3/2017
+'''
+
 import hashlib
 import json
 from time import time, ctime
